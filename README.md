@@ -12,3 +12,13 @@ Cloud Resume Challenge project built with Azure.
 - HTML
 - CSS
 - JavaScript
+
+## Planned Architecture
+
+Browser
+  ↓
+Static Website
+  ↓
+Azure Function
+  ↓
+Cosmos DB
