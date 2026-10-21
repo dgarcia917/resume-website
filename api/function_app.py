@@ -1,4 +1,4 @@
-# CI/CD pipeline validation...
+# Core Tools CI/CD test
 import json
 import logging
 import os
