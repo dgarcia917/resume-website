@@ -1,4 +1,4 @@
-# CI/CD pipeline validation
+# CI/CD pipeline validation...
 import json
 import logging
 import os
