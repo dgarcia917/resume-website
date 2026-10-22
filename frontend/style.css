@@ -98,3 +98,22 @@ nav a:hover {
     padding: 20px;
     margin-top: 15px;
 }
+
+.cert-container {
+    margin-top: 15px;
+}
+
+.cert-badge {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cert-badge:hover {
+    background-color: #218838;
+}
