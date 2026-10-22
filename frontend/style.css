@@ -92,3 +92,9 @@ nav a:hover {
     margin-top: 15px;
 }
 
+.cert-card {
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+}
