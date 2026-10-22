@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel "Danny" Garcia Resume</title>
+    <title>Daniel Garcia | Infrastructure & Cloud Operations Engineer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -14,23 +15,32 @@
         <div class="hero-content">
 
             <h1>Daniel "Danny" Garcia</h1>
-            <p>Cloud Engineer | Azure Administrator | DevOps Enthusiast</p>
+            <p>Infrastructure & Cloud Operations Engineer</p>
             <p>
-                Building cloud-native solutions with Azure, serverless computing,
-                automation, monitoring, and CI/CD pipelines.
+                From networking and storage to cloud operations, I've spent more than 20 years helping organizations
+                build, support, and improve the systems they depend on every day.
             </p>
             <p>
-                <a href="assets/Resume_DanielGarcia_2026-Q4.pdf" target="_blank" class="hero-button">
+                <a href="assets/Resume_DanielGarcia_2026-Q4.pdf" target="_blank" class="hero-button"><i
+                        class="fa-solid fa-file-pdf"></i>
                     Resume
                 </a>
-                <a href="https://github.com/dgarcia917" target="_blank" class="hero-button">
+                <a href="https://github.com/dgarcia917" target="_blank" rel="noopener noreferrer" class="hero-button">
+
+                    <i class="fa-brands fa-github"></i>
                     GitHub
                 </a>
-                <a href="https://www.linkedin.com/in/dgarcia917" target="_blank" class="hero-button">
+                <a href="https://www.linkedin.com/in/dgarcia917" target="_blank" rel="noopener noreferrer"
+                    class="hero-button">
+
+                    <i class="fa-brands fa-linkedin"></i>
                     LinkedIn
                 </a>
-                <a href="https://www.credly.com/users/daniel-garcia.eeedbd32" target="_blank" class="hero-button">
-                    View Certifications
+                <a href="https://www.credly.com/users/daniel-garcia.eeedbd32" target="_blank" rel="noopener noreferrer"
+                    class="hero-button">
+
+                    <i class="fa-solid fa-id-badge"></i>
+                    Certifications
                 </a>
             </p>
         </div>
@@ -43,33 +53,69 @@
         <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
         <a href="#visitor-counter">Visitor Counter</a>
+        <button id="theme-toggle" title="Switch to dark mode" aria-label="Switch to dark mode">
+            🌙
+        </button>
+
     </nav>
 
     <section id="about">
         <h2>About Me</h2>
 
         <p>
-            Cloud and infrastructure professional focused on Azure,
-            automation, serverless computing, and DevOps practices.
+            I've spent more than 20 years working across enterprise infrastructure, including systems, networking,
+            storage, backup, virtualization, and security.
+            Today I work in Azure operations, applying that foundation to cloud administration, governance, and
+            optimization.
+            My experience spans financial, healthcare, and insurance environments where reliability, compliance, and
+            change management matter.
         </p>
     </section>
 
     <section id="skills">
+
         <h2>Technical Skills</h2>
 
+        <h3>Cloud & Operations</h3>
+
         <div class="skills-container">
-
             <span class="skill-badge">Azure</span>
-            <span class="skill-badge">Azure Static Web Apps</span>
-            <span class="skill-badge">Azure Functions</span>
-            <span class="skill-badge">Cosmos DB</span>
+            <span class="skill-badge">Azure Operations</span>
+            <span class="skill-badge">Cloud Governance</span>
+            <span class="skill-badge">Cost Optimization</span>
             <span class="skill-badge">Application Insights</span>
-            <span class="skill-badge">GitHub Actions</span>
-            <span class="skill-badge">CI/CD</span>
-            <span class="skill-badge">HTML</span>
-            <span class="skill-badge">CSS</span>
-
         </div>
+
+        <h3>Infrastructure</h3>
+
+        <div class="skills-container">
+            <span class="skill-badge">NetApp ONTAP</span>
+            <span class="skill-badge">VMware</span>
+            <span class="skill-badge">Cisco MDS</span>
+            <span class="skill-badge">Storage Engineering</span>
+            <span class="skill-badge">SAN</span>
+            <span class="skill-badge">NAS</span>
+        </div>
+
+        <h3>Data Protection & Continuity</h3>
+
+        <div class="skills-container">
+            <span class="skill-badge">IBM Storage Protect</span>
+            <span class="skill-badge">Backup & Recovery</span>
+            <span class="skill-badge">Disaster Recovery</span>
+            <span class="skill-badge">Business Continuity</span>
+        </div>
+
+        <h3>Security & Compliance</h3>
+
+        <div class="skills-container">
+            <span class="skill-badge">PCI</span>
+            <span class="skill-badge">SOX</span>
+            <span class="skill-badge">Change Management</span>
+            <span class="skill-badge">Vulnerability Management</span>
+            <span class="skill-badge">Security Operations</span>
+        </div>
+
     </section>
 
     <section id="projects">
@@ -78,23 +124,24 @@
 
         <div class="project-card">
 
-            <h3>Cloud Resume Challenge (In Progress)</h3>
+            <h3>Cloud Resume Challenge</h3>
 
             <p>
-                Resume website hosted on Azure Static Web Apps with a
-                serverless visitor counter backed by Azure Functions
-                and Cosmos DB.
+                Personal resume website hosted on Azure Static Web Apps
+                with a serverless visitor counter backed by Azure Functions
+                and Cosmos DB, including monitoring, CI/CD, and custom domain integration.
             </p>
 
             <p>
                 Azure Static Web Apps • Azure Functions • Cosmos DB •
                 GitHub Actions • Application Insights
             </p>
-
+        </div>
+        <div class="project-card">
             <h3>Cloud Operations Dashboard (In Progress)</h3>
 
             <p>
-                Future project focused on monitoring Azure resources,
+                Planned project focused on monitoring Azure resources,
                 visualizing operational metrics, and exploring cloud
                 observability practices.
             </p>
@@ -167,7 +214,7 @@
     </section>
 
     <section id="visitor-counter">
-        <h2>Visitor Counter</h2>
+        <h2>Site Statistics</h2>
 
         <p>
             Visitors:
@@ -176,7 +223,18 @@
     </section>
 
     <script src="script.js"></script>
+    <footer>
 
+        <p>
+            © 2026 Daniel Garcia
+        </p>
+
+        <p>
+            Built with Azure Static Web Apps, Azure Functions,
+            Cosmos DB, Application Insights, and GitHub Actions.
+        </p>
+
+    </footer>
 </body>
 
 </html>
