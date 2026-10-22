@@ -4,7 +4,7 @@ This project implements the Cloud Resume Challenge using a serverless architectu
 
 ### Architecture Diagram
 
-[![Cloud Resume Architecture](docsng](docs/images/architecture-diagram.png)
+[![Cloud Resume Architecture](docs/images/architecture-diagram.png)](docs/images/architecture-diagram.png)
 
 ### Architecture Overview
 
