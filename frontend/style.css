@@ -51,3 +51,37 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+.hero-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0078D4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-button:hover {
+    background-color: #005ea6;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.skills-container {
+    margin-top: 15px;
+}
+
+.skill-badge {
+    display: inline-block;
+    background-color: #0078D4;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
