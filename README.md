@@ -6,6 +6,13 @@ This project implements the Cloud Resume Challenge using a serverless architectu
 
 [![Cloud Resume Architecture](docs/images/architecture-diagram.png)](docs/images/architecture-diagram.png)
 
+### Cloud Operations Extension
+
+In addition to the core Cloud Resume application, this project includes a complete operational monitoring solution built with Azure Monitor, Log Analytics, Workbooks, Dashboards, Availability Tests, and Alerting. The solution provides centralized observability across the platform. 
+
+➡️ docs/cloud-ops/README.md
+
+
 ### Architecture Overview
 
 This solution follows a serverless architecture pattern. Azure Static Web Apps hosts the frontend, Azure Functions provides the API layer, Azure Cosmos DB stores visitor count data, GitHub Actions automates deployments, and Azure Application Insights provides monitoring and telemetry. 
