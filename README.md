@@ -10,8 +10,7 @@ This project implements the Cloud Resume Challenge using a serverless architectu
 
 In addition to the core Cloud Resume application, this project includes a complete operational monitoring solution built with Azure Monitor, Log Analytics, Workbooks, Dashboards, Availability Tests, and Alerting. The solution provides centralized observability across the platform. 
 
-➡️ docs/cloud-ops/README.md
-
+➡️ [Cloud Operations Architecture](docs/cloud-ops/README.md)
 
 ### Architecture Overview
 
